@@ -1,0 +1,58 @@
+function persegi(){
+    var s = document.getElementById("sisi").value;
+    
+    if(s==0){
+        alert("Inputan kosong");
+        location.href= "persegi.html"
+    } else{
+        alert("Hasil Luas Persegi = "+s*s)
+    }
+
+}
+
+function persegiPanjang(){
+    var p = document.getElementById("panjang").value;
+    var l = document.getElementById("lebar").value;
+
+    if(p==0 & l==0){
+        alert("Inputan kosong");
+        location.href= "pp.html"
+    } else{
+        alert("Hasil Luas Persegi Panjang= "+p*l)
+    }
+}
+
+function segi3(){
+    var a = document.getElementById("alas").value;
+    var t = document.getElementById("tinggi").value;
+
+    if(a==0 && t==0){
+        alert("Inputan kosong");
+        location.href= "s3.html"
+    } else{
+        alert("Hasil Luas Segitiga = " +0.5*a*t)
+    }
+}
+
+function lingkaran(){
+    var j = document.getElementById("jari").value;
+
+    if(j==0){
+        alert("Inputan kosong");
+        location.href= "lingkaran.html"
+    } else{
+        alert("Hasil Luas Lingkaran = " +3.14*j*j)
+    }
+}
+
+function jajargenjang(){
+    var a = document.getElementById("alas").value;
+    var t = document.getElementById("tinggi").value;
+
+    if(a==0 & t==0){
+        alert("Inputan kosong");
+        location.href= "jajargenjang.html"
+    } else{
+        alert("Hasil Luas Jajar genjang= "+a*t)
+    }
+}
